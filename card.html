@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link href="tailwind.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 dark:bg-gray-900">
+    <div class="container mx-auto px-4 py-8 space-y-8">
+        <div>
+            <h6 class="dark:text-gray-50 font-bold mb-2:">Componente Dropdown</h6>
+            <div class="relative">
+                <button class="flex items-center bg-gray-50 border border-gray-300  px-3 py-1 rounded shadow">
+                    Botão
+                    <svg class="fill-current w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+                </button>
+                <div class="absolute bg-white border border-gray-300 py-1 rounded-md shadow-md" style="width: 200px;">
+
+                    <a href="#" class="block px-3 py-1 text-sm text-gray-500 bg-white hover:bg-gray-100">
+
+                        Link 1</a>
+                    <a href="#" class="block px-3 py-1 text-sm text-gray-500 bg-white hover:bg-gray-100">
+
+                        Link 1</a>
+                    <a href="#" class="block px-3 py-1 text-sm text-gray-500 bg-white hover:bg-gray-100">
+
+                        Link 1</a>
+                    <a href="#" class="block px-3 py-1 text-sm text-gray-500 bg-white hover:bg-gray-100">
+
+                        Link 1</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+            <h6 class="dark:text-gray-50 font-bold mb-2:">Componente Input</h6>
+            <div class="space-y-4">
+                <input type="text" placeholder="Digite seu nome"
+                    class="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 rounded px-2 py-1 text-sm text-gray-800 placeholder-gray-300 focus: outline-none">
+
+                <input type="text" placeholder="Digite seu nome"
+                    class="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 rounded px-3 py-2 text-base text-gray-800 placeholder-gray-300 focus: outline-none">
+
+                <input type="text" placeholder="Digite seu nome"
+                    class="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 rounded px-3 py-2 text-base text-gray-800 placeholder-gray-300 focus: outline-none transition duration-200 ease-in-out">
+            </div>
+        </div>
+
+        <div>
+            <h6 class="dark:text-gray-50 font-bold mb-2:">Componente Badge/Tag</h6>
+
+            <div class="mb-2">
+                <div class="inline-flex item-center text-sm bg-green-100 p-2 rounded-md text-green-800 font-medium">
+                    Ativo
+                </div>
+                <div class="inline-flex item-center text-sm bg-green-100 p-2 rounded-full text-green-800 font-medium">
+                    Ativo
+                </div>
+            </div>
+            <div class="mb-2">
+                <div class="inline-flex item-center text-sm bg-red-100 p-2 rounded-md text-red-800 font-medium">
+                    Inativo
+                </div>
+                <div class="inline-flex item-center text-sm bg-red-100 p-2 rounded-full text-red-800 font-medium">
+                    Inativo
+                </div>
+            </div>
+            <div class="mb-2">
+                <div class="inline-flex item-center text-sm bg-yellow-100 p-2 rounded-md text-yellow-800 font-medium">
+                    Em progesso
+                </div>
+                <div class="inline-flex item-center text-sm bg-yellow-100 p-2 rounded-full text-yellow-800 font-medium">
+                    Em progesso
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h6 class="dark:text-gray-50 font-bold mb-2">Componente Button</h6>
+            <button class="text-sm bg-blue-500 hover:bg-blue-600 px-4 py-1 rounded text-white shadow">
+                Save
+            </button>
+            <button class="text-sm bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded text-white shadow">
+                Save
+            </button>
+            <button class="text-base bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded text-white shadow">
+                Save
+            </button>
+        </div>
+        <h6 class="dark:text-gray-50 font-bold mb-2">Componente Card</h6>
+
+        <div class="dark:bg-gray-800 border-blue-400 rounded-lg shadow-md">
+            <div class="w-full bg-gray-50">
+                <h4 class="w-full bg-blue-400 p-3 border-t border-gray-100 text-white">Titulo do Card</h4>
+            </div>
+            <div class="p-4 dark:text-gray-50">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ab veniam officia beatae sit officiis
+                ex, modi, soluta a dolore tenetur! Ullam laborum dolorem amet delectus repudiandae corrupti consequatur
+                quaerat!
+            </div>
+            <div class="w-full bg-gray-100">
+                <h4 class="w-full bg-blue-400 p-3 border-t border-gray-100 text-white">Rodape</h4>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
